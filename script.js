@@ -4,7 +4,7 @@ let score = 0;
 let shuffledQuestions = [];
 let reviewData = [];
 
-const apiURL = 'https://script.google.com/macros/s/YOUR_DEPLOYED_WEB_APP/exec';
+const apiURL = 'https://script.google.com/macros/s/AKfycbz2OCtmEK7earZxKKn6-lZxVMRngri_9FQSp2e1IdrsxIiYAYijc-cEmyN84j-n3TlN/exec';
 
 fetch(apiURL)
   .then(res => res.json())
