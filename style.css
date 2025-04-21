@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  font-family: 'VT323', monospace;
+  background-color: #000;
+  color: #00f7ff;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 4px solid #ff2cdf;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #ff2cdf;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff2cdf;
+  text-shadow: 0 0 8px #ff2cdf;
+}
+
+.question-box {
+  background-color: #111;
+  border: 2px solid #00f7ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px #00f7ff;
+}
+
+input[type="text"] {
+  width: calc(100% - 24px);
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #222;
+  color: #00f7ff;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: 'VT323', monospace;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ff2cdf;
+  color: #000;
+  box-shadow: 0 0 5px #ff2cdf;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #00f7ff;
+  color: #000;
+  box-shadow: 0 0 8px #00f7ff;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 24px;
+  background-color: #111;
+  padding: 15px;
+  border-left: 4px solid #ff2cdf;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #ff2cdf;
+}
+
+em {
+  color: #ff2cdf;
+}
+
+strong {
+  color: #00f7ff;
+}
